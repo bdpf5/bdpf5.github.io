@@ -292,8 +292,8 @@ figure.effect-sadie figcaption::before {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: -webkit-linear-gradient(top, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
-	background: linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
+	background: -webkit-linear-gradient(top, rgba(72,76,97,0) 0%, rgb(246, 75, 190) 75%);
+	background: linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgb(246, 75, 190) 75%);
 	content: '';
 	opacity: 0;
 	-webkit-transform: translate3d(0,50%,0);
@@ -305,7 +305,7 @@ figure.effect-sadie h2 {
 	top: 50%;
 	left: 0;
 	width: 100%;
-	color: #484c61;
+	color: #f64bbe;
 	-webkit-transition: -webkit-transform 0.35s, color 0.35s;
 	transition: transform 0.35s, color 0.35s;
 	-webkit-transform: translate3d(0,-50%,0);
@@ -322,11 +322,11 @@ figure.effect-sadie p {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	padding: 2em;
+	padding: 6em;
 	width: 100%;
 	opacity: 0;
 	-webkit-transform: translate3d(0,10px,0);
-	transform: translate3d(0,16px,0);
+	transform: translate3d(0,10px,0);
 }
 
 figure.effect-sadie:hover h2 {
