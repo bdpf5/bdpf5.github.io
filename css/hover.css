@@ -326,7 +326,8 @@ figure.effect-sadie p {
 	opacity: 0;
 	-webkit-transform: translate3d(0,10px,0);
 	transform: translate3d(0,10px,0);
-    font-size: 0.2em;
+    font-size: 0.5em;
+    font-family: 'Raleway', Arial, sans-serif;
 }
 
 figure.effect-sadie:hover h2 {
