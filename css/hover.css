@@ -3,7 +3,7 @@
 .clearfix:before, .clearfix:after { content: ''; display: table; }
 .clearfix:after { clear: both; }
 
-body {
+/*body {
 	background: #f6f9fa;
 	color: #536d76;
 	font-weight: 400;
@@ -23,7 +23,7 @@ a:hover, a:focus {
 section {
 	padding: 1em;
 	text-align: center;
-}
+}*/
 
 /* Header */
 .codrops-header {
