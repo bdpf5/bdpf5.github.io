@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 
 <head>
 
@@ -9,49 +9,30 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>YME</title>
+    <title>Young Minho Enterprise</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-
-    <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
-    rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
-    rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
-
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/creative.css" type="text/css">
-    <link rel="stylesheet" href="css/hover.css" type="text/css">
+    <link href="css/agency.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/style.css" />
-
-    <link rel="stylesheet" href="css/members.css" />
-
-    <!-- js -->
-    <script src="js/modernizr.js"></script>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 </head>
 
-<body id="page-top">
+<body id="page-top" class="index">
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -63,11 +44,17 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#about">Sobre</a>
+                    <li class="hidden">
+                        <a href="#page-top"></a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#services">Serviços</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portefólio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Sobre</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Equipa</a>
@@ -82,393 +69,1007 @@
         <!-- /.container-fluid -->
     </nav>
 
+    <!-- Header -->
     <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1>Young Minho Enterprise</h1>
-                <hr>
-                <p>Júnior Empresa da Universidade do Minho</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Descubra mais</a>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading">Young Minho Enterprise</div>
+                <div class="intro-lead-in">A Júnior Empresa da Universidade do Minho</div>
+                <a href="#services" class="page-scroll btn btn-xl">Descobre mais</a>
             </div>
         </div>
     </header>
 
-    <!-- SOBRE -->
-
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">A Young Minho Enterprise</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-users wow bounceIn text-primary"></i>
-                        <h3>Quem somos?</h3>
-                        <p class="text-muted">A Young Minho Enterprise é uma júnior empresa gerida exclusivamente por estudantes da Universidade
-                            do Minho, onde todos os membros trabalham a título voluntário.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-suitcase wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Missão</h3>
-                        <p class="text-muted">A YME aposta na aproximação entre a comunidade académica e o mercado de trabalho, na oferta de uma
-                            componente prática à formação académica dos seus Membros e na potencialização do tecido empresarial
-                            da região.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-eye wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        <h3>Visão</h3>
-                        <p class="text-muted">A YME tem como objetivo tornar-se objeto de referência a nível regional e nacional, alavancando a
-                            imagem da Universidade do Minho e dos seus alunos junto do mercado de trabalho.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                        <h3>Ação</h3>
-                        <p class="text-muted">A YME desenvolve, ao longo de todo o ano, um conjunto de projetos com o objetivo de aproximar a universidade
-                            do meio empresarial e de promover o empreendedorismo.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ENQUADRAMENTO -->
-
-    <section class="bg-primary" id="movimento">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Movimento Júnior</h2>
-                    <hr class="light">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="grid">
-                    <figure class="effect-sadie">
-                        <img src="img/um.jpeg" alt="img02" />
-                        <figcaption>
-                            <h2>Universidade do <span>Minho</span></h2>
-                            <p>A UMinho é considerada uma referência de ensino e aprendizagem de elevada qualidade não só a
-                                nível nacional como internacional constituindo um dos melhores exemplos na Europa na implementação
-                                da estrutura de Bolonha.</p>
-                        </figcaption>
-                    </figure>
-                    <figure class="effect-sadie">
-                        <img src="img/je.jpg" alt="img02" />
-                        <figcaption>
-                            <h2>Júnior <span>Empresa</span></h2>
-                            <p>Uma júnior empresa é uma associação sem fins lucrativos, constituída apenas por estudantes universitários
-                                que têm como objetivo colocar em prática os conhecimentos adquiridos ao longo da sua formação
-                                académica.
-                            </p>
-                        </figcaption>
-                    </figure>
-                    <figure class="effect-sadie">
-                        <img src="img/move.jpg" alt="img02" />
-                        <figcaption>
-                            <h2>Movimento <span>Júnior</span></h2>
-                            <p>O conceito de Júnior Empresa surgiu em França, em 1967. A rede espalhou-se rapidamente e contam-se
-                                agora mais de 200 júnior empresas só na Europa.</p>
-                        </figcaption>
-                    </figure>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- SERVIÇOS -->
-
+    <!-- Services Section -->
     <section id="services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Serviços</h2>
-                    <hr class="primary">
+                    <h3 class="section-subheading text-muted">Aquilo em que somos verdadeiramente bons</h3>
                 </div>
             </div>
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-area-chart fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Consultoria Empresarial</h4>
+                    <p class="text-muted">+ Planos de Negócio</p>
+                    <p class="text-muted">+ Planos de Marketing</p>
+                    <p class="text-muted">+ Estudos de Viabilidade</p>
+                    <p class="text-muted">+ Resolução Criativa de Problemas</p>
+                    <p class="text-muted">+ Consultoria de RH</p>
+                    <p class="text-muted">+ Outros desafios propostos</p>
+                </div>
+                <div class="col-md-6">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-calendar fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Apoio à Organização de Eventos</h4>
+                    <p class="text-muted">+ Secretariado</p>
+                    <p class="text-muted">+ Apoio Logístico</p>
+                    <p class="text-muted">+ Apoio Promocional</p>
+                </div>
+                <!--<div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Web Security</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>-->
+            </div>
         </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-area-chart wow bounceIn text-primary"></i>
-                        <h3>Consultoria Empresarial</h3>
-                        <p class="text-muted">+ Planos de Negócio</p>
-                        <p class="text-muted">+ Planos de Marketing</p>
-                        <p class="text-muted">+ Estudos de Viabilidade</p>
-                        <p class="text-muted">+ Resolução Criativa de Problemas</p>
-                        <p class="text-muted">+ Consultoria de RH</p>
-                        <p class="text-muted">+ Outros desafios propostos</p>
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Portefólio</h2>
+                    <h3 class="section-subheading text-muted">E temos provas do nosso trabalho</h3>
+                </div>
+            </div>
+            <div class="row">
+                <!-- GROUP BUDDIES -->
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/groupb.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Group Buddies</h4>
+                        <p class="text-muted">Graphic Design</p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-calendar wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Apoio à Organização de Eventos</h3>
-                        <p class="text-muted">+ Secretariado</p>
-                        <p class="text-muted">+ Apoio logístico</p>
-                        <p class="text-muted">+ Apoio promocional</p>
+                <!-- CNES -->
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cnes.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>13ª CNES</h4>
+                        <p class="text-muted">Graphic Design</p>
+                    </div>
+                </div>
+                <!-- BUSINESS 4 U-->
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/b4u.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>business4u</h4>
+                        <p class="text-muted">Graphic Design</p>
+                    </div>
+                </div>
+                <!-- EMPREENDE + IDEIAS -->
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/empreende.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Empreende + Ideias</h4>
+                        <p class="text-muted">Graphic Design</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-
-
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Projetos</h2>
-                <hr class="light">
-                <!--<a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>-->
-            </div>
-        </div>
-    </aside>
-
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/nowwhat.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    NOW WHAT?
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
+            <div class="row">
+                <!-- ICEGOV 2014 -->
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
+                        <img src="img/portfolio/icegov14.jpg" class="img-responsive" alt="">
                     </a>
+                    <div class="portfolio-caption">
+                        <h4>ICEGOV 2014</h4>
+                        <p class="text-muted">Graphic Design</p>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/jenial.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    jeniAL15
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
+                <!-- PLAN AND DO IT-->
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
                         <img src="img/portfolio/plan.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Plan and do it
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Plan And Do It</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <!-- JENIAL 2015-->
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
+                        <img src="img/portfolio/jenial.jpg" class="img-responsive" alt="">
                     </a>
+                    <div class="portfolio-caption">
+                        <h4>JeniAL 2015</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/inside.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Inside #Enterprises
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
+                <!-- ICSOB 2015-->
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
+                        <img src="img/portfolio/icsob15.jpg" class="img-responsive" alt="">
                     </a>
+                    <div class="portfolio-caption">
+                        <h4>ICSOB 2015</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/ineo.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    ineo
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
+            </div>
+            <div class="row">
+                <!-- NOW WHAT?-->
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
+                        <img src="img/portfolio/nowwhat.jpg" class="img-responsive" alt="">
                     </a>
+                    <div class="portfolio-caption">
+                        <h4>Now What?</h4>
+                        <p class="text-muted">Graphic Design</p>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
+                <!-- ICEGOV 2016 -->
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/icegov16.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>ICEGOV 2016</h4>
+                        <p class="text-muted">Graphic Design</p>
+                    </div>
+                </div>
+                <!-- PIRATES -->
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
                         <img src="img/portfolio/pirates.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Startup Pirates @Braga
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Startup Pirates @Braga</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <!-- INEO -->
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal12" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
+                        <img src="img/portfolio/ineo.jpg" class="img-responsive" alt="">
                     </a>
+                    <div class="portfolio-caption">
+                        <h4>ineo</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- INSIDE -->
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal13" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/inside.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Inside #Enterprises</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Sobre</h2>
+                    <h3 class="section-subheading text-muted">Já temos a nossa marca na história</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/jade.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>1992</h4>
+                                    <h4 class="subheading">Fundação da JADE</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">A JADE é a Confederação Europeia de Júnior Empresas, com sede em Bruxelas, que trabalha
+                                        em colaboração com a Brasil Júnior e conta com cerca de 15 confederações e membros
+                                        consultivos de países europeus.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/jadept1.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2005</h4>
+                                    <h4 class="subheading">Fundação da JADE Portugal</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Com o objetivo de aumentar a rede nacional de júnior empresas, foi fundada em 2005 a
+                                        JADE Portugal que representa as júnior empresas portuguesas a nível nacional e internacional.
+                                        Só em Portugal contam-se já cerca de XX júnior empresas e YY júnior iniciativas.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/ymein.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2012</h4>
+                                    <h4 class="subheading">Fundação da Young Minho Enterprise</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Em 2012 é fundada a YME, identificando-se como uma associação sem fins lucrativos gerida
+                                        por estudantes da Universidade do Minho que trabalham a título voluntário com o objetivo
+                                        de proporcionar um complemento prático à sua formação académica.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/ymeem.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Abril 2014</h4>
+                                    <h4 class="subheading">Passagem a Júnior Empresa</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Passados dois anos desde a sua fundação, a YME passou de júnior iniciativa a júnior empresa,
+                                        tornando-se numa referência tanto a nível regional como nacional, aproximando os
+                                        estudantes do mercado de trabalho.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Sê parte
+                                    <br>da nossa
+                                    <br>história!</h4>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- EQUIPA -->
-
-    <section id="team">
-        <div class="container" align="center">
+    <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Equipa</h2>
-                    <hr class="primary">
+                    <h3 class="section-subheading text-muted">Um capital humano muito competente</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="container-a3" align="center">
-                    <ul class="caption-style-3">
-                        <li style="margin: 10px">
-                            <img src="img/DiogoSquared.jpg" alt="" width='250px' height='250px'>
-                            <div class="caption">
-                                <div class="blur"></div>
-                                <div class="caption-text">
-                                    <h1>Diogo Ferreira</h1>
-                                    <p>Presidente</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li style="margin: 10px">
-                            <img src="img/InêsSquared.jpg" alt="" width='250px' height='250px'>
-                            <div class="caption">
-                                <div class="blur"></div>
-                                <div class="caption-text">
-                                    <h1>Inês Vale</h1>
-                                    <p>Vice-Presidente</p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/DiogoSquared.jpg" class="img-responsive img-circle" alt="" width='225px'>
+                        <h4>Diogo Ferreira</h4>
+                        <p class="text-muted">Presidente</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://www.facebook.com/kyyupt?fref=ts"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="https://pt.linkedin.com/in/diogo-ferreira-8aa02396/pt"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/InêsSquared.jpg" class="img-responsive img-circle" alt="" width='225px'>
+                        <h4>Inês Vale</h4>
+                        <p class="text-muted">Vice-Presidente</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://www.facebook.com/ines.sofia.3158?fref=ts"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/ines-vale-37515082"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/AndreiaSquared.jpg" class="img-responsive img-circle" alt="" width='225px'>
+                        <h4>Andreia Moreira</h4>
+                        <p class="text-muted">Diretora do Departamento Financeiro</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://www.facebook.com/andreiaaaaaaaaaaaaa?fref=ts"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="https://pt.linkedin.com/in/andreiatmoreira"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                        <hr>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/bruno-lopes-096997108">+ Bruno Lopes</a></p>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/carla-pereira-a2619161">+ Carla Pereira</a></p>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/filipepinheirodealmeida">+ Filipe Almeida</a></p>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/inês-carlos-cardoso-681bab107">+ Inês Cardoso</a></p>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/jorge-pereira-9b5062a6">+ Jorge Pereira</a></p>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/nuno-santos-28a009b9">+ Nuno Santos</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/JoanaSquared.jpg" class="img-responsive img-circle" alt="" width='225px'>
+                        <h4>Joana Silva</h4>
+                        <p class="text-muted">Diretora do Departamento Comercial</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://www.facebook.com/Joanacorsilva?fref=ts"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="https://pt.linkedin.com/in/joana-sofia-vilaça-correia-da-silva-620991a8"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                        <hr>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/abílio-rodrigues-5b9b84a8">+ Abílio Rodrigues</a></p>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/adriano-lopes-9a6a36a1">+ Adriano Lopes</a></p>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/ana-martins-6b8998108">+ Ana Martins</a></p>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/joaocarones">+ João Carones</a></p>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/joaopmartinsfreitas">+ João Freitas</a></p>
+                        <p class="text-muted"><a href="https://www.linkedin.com/in/manuel-bernardo-santos-ba558597">+ Manuel Santos</a></p>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/mariadesancho">+ Maria de Sancho</a></p>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/nunosilvaneto">+ Nuno Neto</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/PauloSquared.jpg" class="img-responsive img-circle" alt="" width='225px'>
+                        <h4>Paulo Santana</h4>
+                        <p class="text-muted">Diretor do Departamento de Recursos Humanos</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://www.facebook.com/paulo.santana.940098?fref=ts"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="https://pt.linkedin.com/in/paulofssant"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                        <hr>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/anabeatrizfernandes">+ Beatriz Fernandes</a></p>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/ana-filipa-pinto-638452103">+ Ana Pinto</a></p>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/andreia-patrícia-soares-da-rocha-793871aa">+ Andreia Rocha</a></p>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/cátia-lima-a7998ba7">+ Cátia Lima</a></p>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/ludovicapiccinini/pt">+ Ludovica Piccinini</a></p>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/marco-pinheiro-40b516b0">+ Marco Pinheiro</a></p>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/tiago-sousa-364874b2">+ Tiago Sousa</a></p>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="container-a3" align="center">
-                    <ul class="caption-style-3">
-                        <li style="margin: 5px">
-                            <img src="img/JoanaSquared.jpg" alt="" width='250px' height='250px'>
-                            <div class="caption">
-                                <div class="blur"></div>
-                                <div class="caption-text">
-                                    <h1>Joana Silva</h1>
-                                    <p>Diretora do Departamento Comercial</p>
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/BrunoSquared.jpg" class="img-responsive img-circle" alt="" width='225px'>
+                        <h4>Bruno Fernandes</h4>
+                        <p class="text-muted">Diretor do Departamento de Informática</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://www.facebook.com/bdpf5?fref=ts"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="https://pt.linkedin.com/in/brunodanielfernandes"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                        <hr>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/filipadevasconcelos">+ Filipa Vasconcelos</a></p>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/maria-josé-silva-pereira-935481105">+ Maria Pereira</a></p>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/vitorenesduarte">+ Vítor Duarte</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/team/MarianaSquared.jpg" class="img-responsive img-circle" alt="" width='225px'>
+                        <h4>Mariana Jacinto</h4>
+                        <p class="text-muted">Diretora do Departamento de Comunicação</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://www.facebook.com/mariana.jacinto.1?fref=ts"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="https://pt.linkedin.com/pub/mariana-jacinto/a7/908/b6b"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                        <hr>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/helder-ferreira-55658a109">+ Hélder Ferreira</a></p>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/martim-santos-b58369109">+ Martim Santos</a></p>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/ritapmoura">+ Rita Moura</a></p>
+                        <p class="text-muted"><a href="https://pt.linkedin.com/in/tiago-afonso-5a338a109">+ Tiago Afonso</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <h4>Mesa da Assembleia Geral</h4>
+                        <hr>
+                        <p class="text-muted">+ Martinho Aragão — Presidente</p>
+                        <p class="text-muted">+ João Carones — Vice-Presidente</p>
+                        <p class="text-muted">+ Maria de Sancho — Secretária</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <h4>Conselho Fiscal</h4>
+                        <hr>
+                        <p class="text-muted">+ Eduarda Ferreira — Presidente</p>
+                        <p class="text-muted">+ Luís Nuno Barbosa — 1.º Secretário</p>
+                        <p class="text-muted">+ Joana Silva — 2.ª Secretária</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <h4>Conselho Alumni</h4>
+                        <hr>
+                        <p class="text-muted">+ Daniela Mendes — Presidente</p>
+                        <p class="text-muted">+ Hugo Gomes — 1.º Secretário</p>
+                        <p class="text-muted">+ Catarina Campos — 2.ª Secretária</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--Clients Aside 
+    <aside class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>-->
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contactos</h2>
+                    <h3 class="section-subheading text-muted">Ainda restou dúvida? Contacta-nos!</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Nome*" id="name" required data-validation-required-message="Por favor, introduz um nome">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email*" id="email" required data-validation-required-message="Por favor, introduz um email">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Telemóvel*" id="phone" required data-validation-required-message="Por favor, introduz um número de telemóvel">
+                                    <p class="help-block text-danger"></p>
                                 </div>
                             </div>
-                        </li>
-                        <li style="margin: 5px">
-                            <img src="img/MarianaSquared.jpg" alt="" width='250px' height='250px'>
-                            <div class="caption">
-                                <div class="blur"></div>
-                                <div class="caption-text">
-                                    <h1>Mariana Jacinto</h1>
-                                    <p>Diretora do Departamento de Comunicação</p>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Mensagem*" id="message" required data-validation-required-message="Por favor, escreve uma mensagem"></textarea>
+                                    <p class="help-block text-danger"></p>
                                 </div>
                             </div>
-                        </li>
-                        <li style="margin: 5px">
-                            <img src="img/AndreiaSquared.jpg" alt="" width='250px' height='250px'>
-                            <div class="caption">
-                                <div class="blur"></div>
-                                <div class="caption-text">
-                                    <h1>Andreia Moreira</h1>
-                                    <p>Diretora do Departamento Financeiro</p>
-                                </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Enviar</button>
                             </div>
-                        </li>
-                        <li style="margin: 5px">
-                            <img src="img/BrunoSquared.jpg" alt="" width='250px' height='250px'>
-                            <div class="caption">
-                                <div class="blur"></div>
-                                <div class="caption-text">
-                                    <h1>Bruno Fernandes</h1>
-                                    <p>Diretor do Departamento de Informática</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li style="margin: 5px">
-                            <img src="img/PauloSquared.jpg" alt="" width='250px' height='250px'>
-                            <div class="caption">
-                                <div class="blur"></div>
-                                <div class="caption-text">
-                                    <h1>Paulo Santana</h1>
-                                    <p>Diretor do Departamento de Recursos Humanos</p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section id="contact ">
-        <div class="container ">
-            <div class="row ">
-                <div class="col-lg-8 col-lg-offset-2 text-center ">
-                    <h2 class="section-heading ">Entre em contacto connosco!</h2>
-                    <hr class="primary ">
-                    <p>Está interessado num dos nossos serviços? Entre em contacto connosco através do nosso email ou ligue-nos!
-                    </p>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Young Minho Enterprise 2016</span>
                 </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center ">
-                    <i class="fa fa-phone fa-3x wow bounceIn "></i>
-                    <p>(+351) 916 813 246</p>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <!--<li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>-->
+                        <li><a href="https://www.facebook.com/youngminhoenterprise/"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li><a href="https://goo.gl/maps/UYxmUzR7njs"><i class="fa fa-map-marker"></i></a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-lg-4 text-center ">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn " data-wow-delay=".1s "></i>
-                    <p><a href="mailto:geral@yme.pt ">geral@yme.pt</a></p>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li>(+351) 916 813 246</li>
+                        <!--<li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>-->
+                    </ul>
                 </div>
             </div>
         </div>
-    </section>
+    </footer>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Group Buddies</h2>
+                            <p class="item-intro text-muted">Janeiro a Maio de 2013</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/groupb.jpg" alt="">
+                            <p>
+                                <ul>
+                                    <li>Desenvolvimento de Plano de Negócios com a finalidade de apresentação a potenciais investidores;</li>
+                                    <li>Apresentação da empresa cliente, respetivo modelo de negócios e produtos;</li>
+                                    <li>Trabalho próximo com as chefias da empresa cliente;</li>
+                                    <li>A empresa cliente era uma spin-off da Universidade do Minho.</li>
+                                </ul>
+                            </p>
+                            <p>
+                                <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them
+                                for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>,
+                                or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
+                            <ul class="list-inline">
+                                <li>Data: Janeiro a Maio 2013</li>
+                                <li>Cliente: Group Buddies</li>
+                                <li>Categoria: Desenvolvimento de Plano de Negócios</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>13ª Conferência Nacional de Economia da Saúde</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/cnes.jpg" alt="">
+                            <p>+ Apoio ao secretariado antes e durante a conferência</p>
+                            <p>+ Gestão de conteúdos do Website da conferência;</p>
+                            <p>+ Gestão de inscrições e financeira;</p>
+                            <p>+ Apoio presencial nos dias do evento.</p>
+                            <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
+                            <ul class="list-inline">
+                                <li>Data: Outubro 2013</li>
+                                <li>Cliente: YYYY</li>
+                                <li>Categoria: Secretariado</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>business4u</h2>
+                            <p class="item-intro text-muted">Abril de 2014</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/b4u.jpg" alt="">
+                            <p>O business4u foi um projeto promovido pela YME, até Abril de 2014, e que se proponha a divulgar,
+                                no dia 25 de cada mês, uma entrevista com uma pessoa que se destacava na sociedade. O objetivo
+                                era ajudar-nos a compreender o que espera o mercado de trabalho de nós, estudantes universitários,
+                                que competências procuram as empresas, o que acham, noutros países, dos estudantes vindos
+                                de Portugal, e muito mais!</p>
+                            <p>Consulta aqui as entrevistas realizadas.</p>
+                            <ul class="list-inline">
+                                <li>Data: Abril 2014</li>
+                                <li>Categoria: Projeto</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
+                            <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>.
+                                Golden is a modern and clean one page web template that was made exclusively for Best PSD
+                                Freebies. This template has a great portfolio, timeline, and meet your team sections that
+                                can be easily modified to fit your needs.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
+                            <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>.
+                                Escape is a one page web template that was designed with agencies in mind. This template
+                                is ideal for those looking for a simple one page solution to describe your business and offer
+                                your services.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 6 PLAN AND DO IT -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Plan and Do It</h2>
+                            <p class="item-intro text-muted">Novembro de 2014</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/plan,jpg" alt="">
+                            <p>De forma a assinalar a Semana Global do Empreendedorismo, a Young Minho Enterprise e o CeSIUM
+                                – Centro de Estudantes de Informática da Universidade do Minho – organizaram o Plan and Do
+                                It, um evento marcado pela presença de oradores num conjunto de palestras sobre empreendedorismo.</p>
+                            <ul class="list-inline">
+                                <li><strong>Data:</strong> Novembro 2014</li>
+                                <li><strong>Categoria:</strong> Projeto</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 7 JENIAL -->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>JeniAL 2015</h2>
+                            <p class="item-intro text-muted">Abril de 2015</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/jenial.jpg" alt="">
+                            <p>A 6.ª edição do JeniAL, o encontro nacional de Júnior Empresas jenial e Iniciativas, decorreu
+                                pela primeira vez na cidade de Braga, entre 10 e 12 de Abril de 2015. Com o tema “Aprender
+                                Fazendo”, o evento juntou cerca de 150 júnior empresários de diferentes pontos do país.</p>
+                            <ul class="list-inline">
+                                <li>Data: Abril 2015</li>
+                                <li>Categoria: Projeto</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 11 PIRATES -->
+    <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Startup Pirates @Braga</h2>
+                            <p class="item-intro text-muted">2012 — Presente</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/pirates.jpg" alt="">
+                            <p>Iniciado no Porto e já espalhado um pouco por todo o mundo, Startup Pirates é um programa de
+                                uma semana que permite que os aspirantes a empreendedores entrem no mundo das Startups e
+                                aprendam a desenvolver uma ideia de negócio. Em Braga, o programa é, desde 2012, organizado
+                                pela Young Minho Enterprise.</p>
+                            <p>Fica a saber mais sobre este programa <a href="http://braga.startuppirates.org/">aqui</a> e vê,
+                                ainda, como foram as edições anteriores de <a href="https://www.facebook.com/media/set/?set=a.475522595822220.99991.408389792535501&type=3">2012</a>                                e <a href="https://www.facebook.com/media/set/?set=a.887184827989326.1073741826.408389792535501&type=3">2015</a>.</p>
+                            <ul class="list-inline">
+                                <li>Data: 2012 — Presente</li>
+                                <li>Categoria: Projeto</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 12 INEO -->
+    <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>ineo</h2>
+                            <p class="item-intro text-muted">2015 — Presente</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/ineo.jpg" alt="">
+                            <p>O projeto ineo é uma iniciativa da Jeknowledge, Júnior Empresa da Faculdade de Ciências e Tecnologias
+                                da Universidade de Coimbra. O ineo.pt é um blog que pretende divulgar projetos de inovação
+                                e empreendedorismo. O projeto ultrapassou as fronteiras de Coimbra e conta, agora, com autores
+                                da região do Minho, convidados pela YME.</p>
+                            <ul class="list-inline">
+                                <li>Data: 2015 — Presente</li>
+                                <li>Categoria: Projeto</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 13 INSIDE -->
+    <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Inside #Enterprises</h2>
+                            <p class="item-intro text-muted">Dezembro de 2014 — Presente</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/inside.jpg" alt="">
+                            <p>O Inside #Enterprises é um projeto que visa levar, mensalmente, cerca de 20 participantes a conhecer
+                                as mais inovadoras empresas do Minho, criando um ambiente informal à volta da mesa e de um
+                                lanche, durante a tarde.</p>
+                            <p>Este projeto dá continuidade ao anteriormente conhecido <a href="https://www.facebook.com/media/set/?set=a.575199455845193.1073741825.263117360386739&type=3">Breakfasts
+                                @Enterprises</a> sendo que este ano conta com uma parceria com a <a href="http://www.investbraga.com/startup/">Startup Braga</a>.</p>
+                            <ul class="list-inline">
+                                <li>Data: Dezembro 2014 — Presente</li>
+                                <li>Categoria: Projeto</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- jQuery -->
-    <script src="js/jquery.js "></script>
+    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js "></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js "></script>
-    <script src="js/jquery.fittext.js "></script>
-    <script src="js/wow.min.js "></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js "></script>
+    <script src="js/agency.js"></script>
+
 </body>
 
 </html>
