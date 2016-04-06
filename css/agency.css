@@ -1,6 +1,6 @@
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 .text-muted {
     color: #777
@@ -20,7 +20,8 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    outline: 0
+    outline: 0;
+    text-decoration:none;
 }
 a {
     color: #f64bbe
@@ -236,7 +237,7 @@ header .intro-text {
     padding-bottom: 50px
 }
 header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 22px;
     line-height: 22px;
@@ -252,11 +253,11 @@ header .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 250px;
         padding-bottom: 200px
     }
     header .intro-text .intro-lead-in {
-        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-style: italic;
         font-size: 30px;
         line-height: 40px;
@@ -281,7 +282,7 @@ section h2.section-heading {
 }
 section h3.section-subheading {
     font-size: 16px;
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: none;
     font-style: italic;
     font-weight: 400;
@@ -348,7 +349,7 @@ section h3.section-subheading {
     margin: 0
 }
 #portfolio .portfolio-item .portfolio-caption p {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 16px;
     margin: 0
@@ -549,7 +550,7 @@ aside.clients img {
 }
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    /*background-image: url(../img/map-image.png);*/
     background-position: center;
     background-repeat: no-repeat
 }
@@ -564,10 +565,10 @@ section#contact .form-group textarea {
     padding: 20px
 }
 section#contact .form-group input.form-control {
-    height: auto
+    height: 5px
 }
 section#contact .form-group textarea.form-control {
-    height: 236px
+    height: 120px
 }
 section#contact .form-control:focus {
     border-color: #f64bbe;
@@ -664,7 +665,7 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 16px
 }
@@ -727,3 +728,28 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #f64bbe
 }
+/* MODAL EQUIPA */
+#lean_overlay {
+    position: fixed;
+    z-index:10000;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+#financeiro, #informatica, #rh, #comercial, #comunicacao {
+    width: 600px;
+    padding: 30px; 
+    display:none;
+    background: #FFF;
+    border-radius: 0px; 
+    -moz-border-radius: 0px; 
+    -webkit-border-radius: 0px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.7); 
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.7); 
+    -moz-box-shadow: 0 0px 4px rgba(0,0,0,0.7);
+}
+#financeiro p, #informatica p, #rh p, #comercial p, #comunicacao p {color: #666; text-shadow: none;}
